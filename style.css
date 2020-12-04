@@ -7,7 +7,7 @@
   background-color: teal;
 }
 .movies{
-  color: black;
+  color: white;
   background-color: green;
 }
 .culture{
@@ -17,4 +17,27 @@
 .sponsored{
   color: white;
   background-color: black;
+}
+
+.lightGrayBG{
+  background-color: rgb(209, 209, 209);
+}
+
+.fontb{
+  font-size: 2em;
+}
+
+.fontw{
+  color: white;
+}
+
+.darkenImage {
+  filter: brightness(50%);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
